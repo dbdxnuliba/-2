@@ -1,0 +1,19 @@
+#ifndef INTERPPROG_H
+#define INTERPPROG_H
+
+///////////////////////////////////////////////////////////////////////////////////////////
+// 
+// Date: 2017/03/26
+// Description: Interpreter M
+// Environment: windows(vs) / gcc
+//
+///////////////////////////////////////////////////////////////////////////////////////////
+
+#include "sysutil.h"
+#include "interpEnv.h"
+
+void I_init(interpEnv sysenv, A_stmList prog);
+void I_end();
+void *I_interpNext(interpEnv sysenv);
+
+#endif

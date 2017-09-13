@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/models">
+        <file>3DModel/base_link.STL</file>
+        <file>3DModel/base_link_m.STL</file>
+        <file>3DModel/Link_1.STL</file>
+        <file>3DModel/Link_1_m.STL</file>
+        <file>3DModel/Link_2.STL</file>
+        <file>3DModel/Link_2_m.STL</file>
+        <file>3DModel/Link_3.STL</file>
+        <file>3DModel/Link_3_m.STL</file>
+        <file>3DModel/Link_4.STL</file>
+        <file>3DModel/Link_4_m.STL</file>
+        <file>3DModel/Link_5.STL</file>
+        <file>3DModel/Link_5_m.STL</file>
+        <file>3DModel/Link_6.STL</file>
+        <file>3DModel/Link_6_m.STL</file>
+        <file>3DModel/Link_7.STL</file>
+        <file>3DModel/Link_7_m.STL</file>
+    </qresource>
+</RCC>

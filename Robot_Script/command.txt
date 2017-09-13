@@ -1,0 +1,7 @@
+1. 打开command窗口
+2. 定位到win_bison / win_flex目录
+3. win_bison -d 7dof.y   生成 7dof.tab.h 和7dof.tab.c 文件
+4. win_flex --nounistd 7dof.lex 或 win_flex --wincompat 7dof.lex    生成lex.yy.c
+5. --nounistd 和 --wincompat 选项使生成的 lex.yy.c 不依赖<unistd.h> 可以用 VC 编译，否则就只能用 gcc 编译了。
+
+--wincompat 为 win_flex 所增加的设置选项，在 flex --nounistd (do not include <unistd.h> ) 的基础上，减少 VC 的 compile warning (uses <io.h> instead of <unistd.h> and _isatty, _fileno functions )， 另外在生成的lex.yy.c 文件中添加：

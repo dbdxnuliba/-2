@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/robot">
+        <file>meshes/base_link.STL</file>
+        <file>meshes/link_1.STL</file>
+        <file>meshes/link_2.STL</file>
+        <file>meshes/link_3.STL</file>
+        <file>meshes/link_4.STL</file>
+        <file>meshes/link_5.STL</file>
+        <file>meshes/link_6.STL</file>
+        <file>meshes/link_7.STL</file>
+    </qresource>
+</RCC>

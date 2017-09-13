@@ -1,0 +1,44 @@
+array1 = Array(7,INT, [1,2,3,4]);		#用列表初始化的整形数组
+array1_1 = Array(3, INT); 				#未初始化的整型数组
+array1;
+array2 = Array(8,FLO, [1.1,2.2]);
+array2;
+array3 = Array(10, CHAR); 				#空的字符数组， 每位占一个字节， 后期用来处理字符串
+array3;
+#array3[1] = array2; 
+p = [1.1,2.2,3.2,4.2,5.1,6];			#pose类型
+p;
+p1 = [POSE];							#空的pose类型
+p1;
+
+str = "siasun robot";
+str;
+
+sdasdasfdsgdfgf.dsafdfds;
+
+ni = 1;
+while(ni < 10):
+	MoveL(p[1],p[2],p[3],p[4],p[5],1.6, 1.7, 1.8,1.9, 1.10, 1.11, 1.12, 1.13,1.14, 1.15, 1.16);
+	ni = ni + 1;
+end
+
+x = 5;
+if ni >x:
+	x;
+	str;
+end
+
+############socket 通信测试， 必须在有服务器的情况下运行##############
+#a = 0;
+#a;
+#str1 = "name";
+#str2 = "company";
+#str3 = "haha";
+#
+#socket_open("127.0.0.1", 6002);
+#a = socket_get_var(str1);
+#socket_close();
+#a;
+#######################################################################
+
+p;
